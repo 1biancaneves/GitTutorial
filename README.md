@@ -24,13 +24,11 @@ Este repositório apresenta uma solução completa desenvolvida para a **Fase 2 
 
 ## Estrutura dos Arquivos
 
-| Arquivo                                     | Descrição                                                                 |
-| ------------------------------------------- | ------------------------------------------------------------------------- |
-| `eda_ibovespa.py`                           | Análise exploratória dos dados (EDA) com insights visuais                 |
-| `predict_model_ibovespa.py`                 | Script com o modelo Random Forest para prever a tendência do dia seguinte |
-| `Tech_Challenge_Apresentacao_Ibovespa.pptx` | Apresentação completa com storytelling, métricas e próximos passos        |
-| `roteiro_video.txt`                         | Roteiro dividido entre 5 integrantes para apresentação oral               |
-
+| Arquivo                                     | Descrição                                                                    |
+| ------------------------------------------- | -----------------------------------------------------------------------------|
+| `Dados Históricos - Ibovespa - 20 anos.csv` | Base de dados em CSV que contempla 20 anos de dados (27/06/2005 a 25/07/2025)|
+| `postechfiap_predição_bovespa.ipynb`        | Script com o modelo Random Forest para prever a tendência do dia seguinte    |
+ 
 ---
 
 ## Resultados Alcançados
@@ -42,8 +40,6 @@ Este repositório apresenta uma solução completa desenvolvida para a **Fase 2 
 ---
 
 ## Próximos Passos
-
-* Testar modelos alternativos: XGBoost, LSTM
 * Incluir features técnicas: médias móveis, RSI, bandas de Bollinger
 * Automatizar ingestão de dados com coleta via API/scraping
 * Criar dashboard interativo para visualização dos resultados
